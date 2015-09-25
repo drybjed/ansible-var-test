@@ -1,0 +1,9 @@
+---
+
+- include_vars: '{{ item }}'
+  with_first_found:
+    - 'other_main.yml'
+
+- name: Debug the var
+  debug: var=var_wrapper
+

@@ -1,0 +1,6 @@
+---
+
+var_wrapper:
+
+  - key: 'This is {{ apt_sources_release }} string'
+

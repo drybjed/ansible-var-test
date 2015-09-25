@@ -1,0 +1,4 @@
+---
+
+apt_sources_release: '{{ ansible_distribution_release.split("/")[0] }}'
+
